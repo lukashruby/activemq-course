@@ -95,6 +95,4 @@
 8. Start producer with failover transport produce message broker A: ``mvn clean install exec:java -Dexec.args="-p -u failover:(tcp://localhost:61616,tcp://localhost:61617) -d example.masterslave"``
 9. stop broker A
 10. See that producer reconnects to broker B and continue delivery.
- 
- 
 
